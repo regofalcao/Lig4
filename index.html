@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lig-4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./assets/favicon/connect-four.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/houseStyles.css">
+</head>
+
+<body>
+    <h1 class="title">game of thrones</h1>
+    <section class="playerSelection__container" id="playerSelectionContainer">
+        <h3 class="playerSelection__title">Selecionar casas</h3>
+        <section class="playerSelection__choices" id="playerSelectionChoicesContainer">
+            <h5 class="choices__title" id="choicesTitle">Jogador 1</h5>
+            <section class="choice__container" id="choiceContainer">
+                <div class="choice__disk--firstPage" id="baratheon">
+                    <img class="choice__image" src="assets/images/houseDisks/baratheon.png" alt="House baratheon">
+                </div>
+                <div class="choice__disk--firstPage" id="lannister">
+                    <img class="choice__image" src="assets/images/houseDisks/lannister.png" alt="House lannister">
+                </div>
+                <div class="choice__disk--firstPage" id="stark">
+                    <img class="choice__image" src="assets/images/houseDisks/stark.png" alt="House stark">
+                </div>
+                <div class="choice__disk--firstPage" id="targaryen">
+                    <img class="choice__image" src="assets/images/houseDisks/targaryen.png" alt="House targaryen">
+                </div>
+            </section>
+        </section>
+        <section class="playerSelected__container">
+            <section class="player__container" id="playerContainerA">
+                <div class="player__general">Jogador 1</div>
+                <div class="player__choice" id="choicePlayerA">Aguardando</div>
+                <div class="player__diskSelected">
+                    <img class="choice__image--selection" src="" alt="" id="playerASelection">
+                </div>
+            </section>
+            <section class="player__container player__container--playerB" id="playerContainerB">
+                <div class="player__general">Jogador 2</div>
+                <div class="player__choice" id="choicePlayerB">Aguardando</div>
+                <div class="player__diskSelected player__diskSelected--playerB">
+                    <img class="choice__image--selection" src="" alt="" id="playerBSelection">
+                </div>
+            </section>
+            <section class="versus__container">
+                <h3 class="versus__text">versus</h3>
+            </section>
+        </section>
+    </section>
+
+    <main class="gameContent hidden" id="gameContent">
+        <section id="bannerContainer"></section>
+        <section class="game__container" id="gameContainer"></section>
+        <section class="scoreAndTurn__container" id="scoreAndTurnContainer"></section>
+    </main>
+
+    <footer class="footer">
+        <div class="links__container" id="linksContainer"></div>
+    </footer>
+
+    <script src="./scripts/housesInfo.js"></script>
+    <script src="./scripts/teamInfo.js"></script>
+    <script src="./scripts/selectPlayer.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

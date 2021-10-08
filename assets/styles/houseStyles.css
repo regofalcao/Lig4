@@ -1,0 +1,134 @@
+/* VARIABLES */
+:root {
+    --baratheon-color-primary: #161716;
+    --baratheon-color-secondary: #DACB06;
+    --baratheon-color-primary-turn: #161716;
+    --baratheon-color-secondary-turn: #E5A618;
+    --baratheon-color-third: #7D7B76;
+
+    --targaryen-color-primary: #7B7C73;
+    --targaryen-color-secondary: #7D1220;
+    --targaryen-color-primary-turn: #1B1313;
+    --targaryen-color-secondary-turn: #A21B32;
+    --targaryen-color-third: #441314;
+
+    --lannister-color-primary: #CBAC4E;
+    --lannister-color-secondary: #8D1621;
+    --lannister-color-primary-turn: #98182F;
+    --lannister-color-secondary-turn: #D8C876;
+    --lannister-color-third: #775D25;
+
+    --stark-color-primary: #0A0A0A;
+    --stark-color-secondary: #ABA79C;
+    --stark-color-primary-turn: #373637;
+    --stark-color-secondary-turn: #ECE2BE;
+    --stark-color-third: #B5A41D;
+}
+
+/* BARATHEON */
+.message-container--baratheon {
+    color: var(--baratheon-color-primary);
+    background-color: var(--baratheon-color-secondary);
+}
+
+.message__button--baratheon {
+    background-color: var(--baratheon-color-primary);
+    color: var(--baratheon-color-secondary);
+}
+
+.message__button--baratheon:hover {
+    color: var(--baratheon-color-primary);
+    background-color: var(--baratheon-color-third);
+    box-shadow: none;
+}
+
+.turn__container--baratheon {
+    color: var(--baratheon-color-primary-turn);
+    background-color: var(--baratheon-color-secondary-turn);
+}
+
+.player__container--baratheon {
+    background-color: var(--baratheon-color-primary-turn);
+    color: var(--baratheon-color-secondary-turn);
+}
+
+/* TARGARYEN */
+.message-container--targaryen {
+    color: var(--targaryen-color-primary);
+    background-color: var(--targaryen-color-secondary);
+}
+
+.message__button--targaryen {
+    background-color: var(--targaryen-color-primary);
+    color: var(--targaryen-color-secondary);
+}
+
+.message__button--targaryen:hover {
+    color: var(--targaryen-color-primary);
+    background-color: var(--targaryen-color-third);
+    box-shadow: none;
+}
+
+.turn__container--targaryen {
+    color: var(--targaryen-color-primary-turn);
+    background-color: var(--targaryen-color-secondary-turn);
+}
+
+.player__container--targaryen {
+    color: var(--targaryen-color-primary-turn);
+    background-color: var(--targaryen-color-secondary-turn);
+}
+
+/* LANNISTER */
+.message-container--lannister {
+    color: var(--lannister-color-primary);
+    background-color: var(--lannister-color-secondary);
+}
+
+.message__button--lannister {
+    background-color: var(--lannister-color-primary);
+    color: var(--lannister-color-secondary);
+}
+
+.message__button--lannister:hover {
+    color: var(--lannister-color-primary);
+    background-color: var(--lannister-color-third);
+    box-shadow: none;
+}
+
+.turn__container--lannister {
+    color: var(--lannister-color-primary-turn);
+    background-color: var(--lannister-color-secondary-turn);
+}
+
+.player__container--lannister {
+    color: var(--lannister-color-primary-turn);
+    background-color: var(--lannister-color-secondary-turn);
+}
+
+/* STARK */
+.message-container--stark {
+    color: var(--stark-color-primary);
+    background-color: var(--stark-color-secondary);
+}
+
+.message__button--stark {
+    background-color: var(--stark-color-primary);
+    color: var(--stark-color-secondary);
+}
+
+.message__button--stark:hover {
+    color: var(--stark-color-primary);
+    background-color: var(--stark-color-third);
+    box-shadow: none;
+}
+
+.turn__container--stark {
+    color: var(--stark-color-primary-turn);
+    background-color: var(--stark-color-secondary-turn);
+}
+
+.player__container--stark {
+    color: var(--stark-color-primary-turn);
+    background-color: var(--stark-color-secondary-turn);
+}
